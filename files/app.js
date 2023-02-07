@@ -3,7 +3,7 @@
 
 const editFunc = function (elem) {
     elem.textContent = 'Hello'
-    elem.style.height = '40px'
+    elem.style.height = '45px'
     elem.style.backgroundColor = 'red'
 }
 const elemCreator = function (elem, callback) {
