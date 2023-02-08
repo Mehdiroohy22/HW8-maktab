@@ -167,11 +167,9 @@ main {
   }
   .info {
     flex-direction: column;
-   
   }
   footer {
     flex-direction: column;
-
   }
   .h1-head {
     padding-top: 1rem;
@@ -182,18 +180,7 @@ main {
   .bottom-section {
     padding: 0.2rem 0.2rem;
   }
-  .bottom-section h3{
-    margin-bottom:0.5rem;
+  .bottom-section h3 {
+    margin-bottom: 0.5rem;
   }
-/* }
-@media only screen and (max-width: 768px) {
-  .info {
-    flex-direction: column;
-  }
-  header h1 {
-    padding-top: 1rem;
-  }
-  header .btn {
-    margin-bottom: 1rem;
-  }
-} */
+}
