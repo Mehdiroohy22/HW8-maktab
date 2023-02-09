@@ -55,7 +55,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding: 1rem;
+  padding: 2rem 2rem;
 }
 
 .contact-us {
@@ -135,6 +135,9 @@ main {
 .article-card h4 {
   margin-bottom: 1.2rem;
 }
+p {
+  line-height: 24px;
+}
 
 .bottom-section {
   display: flex;
@@ -148,7 +151,7 @@ main {
 }
 
 .bottom-section h3 {
-  margin-bottom: 2rem;
+  margin-bottom: 0.8rem;
 }
 /* @media only screen and (min-width: 1024px) {
   .article {
@@ -207,9 +210,7 @@ main {
   .bottom-section h3 {
     margin-bottom: 0.5rem;
   }
-  p {
-    line-height: 24px;
-  }
+
   .article-card {
     width: 60%;
   }
