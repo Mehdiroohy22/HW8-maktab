@@ -124,11 +124,12 @@ main {
 }
 
 .article-card {
-  width: 12rem;
+  width: 18rem;
   height: 35rem;
   background-color: #eaeaea;
   margin: 1.5rem;
-  padding: 2rem;
+  padding: 2rem 2rem;
+  border-radius: 4px;
 }
 
 .article-card h4 {
@@ -209,12 +210,7 @@ main {
   p {
     line-height: 24px;
   }
-}
-@media only screen and (min-width: 678px) {
   .article-card {
-    width: 15rem;
-  }
-  p {
-    line-height: 24px;
+    width: 60%;
   }
 }
