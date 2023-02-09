@@ -6,9 +6,9 @@ const setterGenerator = function (prop) {
         this[prop] = val;
 
         return this
-    }
+    }.bind(user)
 }
 
 const nameSetter = setterGenerator('name')
-nameSetter.call(user, 'farhad')
+nameSetter('farhad')
 console.log(user)
